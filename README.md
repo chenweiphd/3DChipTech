@@ -1,10 +1,14 @@
 
-# 3D, 2.5D and 2D Chip Technology（Chiplet Technology）
-3D and 2.5D Package Technology refers to advanced packaging techniques used in the semiconductor industry. These technologies enable the integration of multiple components or dies into a single package, resulting in increased functionality and performance.
+# From 2D to 3.5D Chip Technology（Chiplet Technology）
 
-In 3D packaging, multiple dies are stacked vertically, interconnected using through-silicon vias (TSVs) or microbumps. This vertical integration allows for shorter interconnect lengths, reduced power consumption, and improved thermal management. 3D packaging is commonly used in applications such as high-performance computing, graphics processing units (GPUs), and memory modules.
 
-![image](https://github.com/RIOSMPW/3DChipTech/assets/100336131/62fef189-d62c-4658-9410-352a29388c79)
+2.5D, 3D and 3.5D Package or integration technology refers to advanced packaging techniques used in the semiconductor industry. These technologies enable the integration of multiple components or dies into a single package, resulting in increased functionality and performance.
+
+![image-20250620124229956](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620124229956.png)
+
+In 3D or 3.5D packaging, multiple dies are stacked vertically, interconnected using through-silicon vias (TSVs) or microbumps. This vertical integration allows for shorter interconnect lengths, reduced power consumption, and improved thermal management. 2.5D and 3D packaging is commonly used in applications such as high-performance computing, graphics processing units (GPUs), and memory modules.
+
+![image-20250620124435013](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620124435013.png)
 
 
 On the other hand, 2.5D packaging involves the integration of multiple dies on a silicon interposer. The interposer acts as a bridge, providing electrical connections between the dies. This technology allows for the combination of different types of dies, such as processors, memory, and sensors, in a single package. 2.5D packaging offers improved performance, power efficiency, and system miniaturization.
@@ -12,9 +16,9 @@ On the other hand, 2.5D packaging involves the integration of multiple dies on a
 
 Both 3D and 2.5D package technologies have revolutionized the semiconductor industry by enabling the development of smaller, faster, and more power-efficient electronic devices. These packaging techniques play a crucial role in the advancement of various fields, including mobile devices, automotive electronics, and data centers.
 
-This repository will provide a comprehensive and detailed introduction to the technology behind 3D and 2.5D packaging. It will cover various aspects such as the principles, applications, and advancements in this field. Additionally, it will explore the benefits and challenges associated with these technologies.This comprehensive guide aims to equip designers with the knowledge and insights needed to navigate the exciting world of 3D and 2.5D package technology.
+This repository will provide a comprehensive and detailed introduction to the technology behind 3D and 2.5D packaging. It will cover various aspects such as the principles, applications, and advancements in this field. Additionally, it will explore the benefits and challenges associated with these technologies.This comprehensive guide aims to equip designers with the knowledge and insights needed to navigate the exciting world of 2.5 D, 3D and 3.5D package technology.
 
-![image](https://github.com/RIOSMPW/3DPackageTech/assets/100336131/f1810585-500a-4b9a-a0f7-ac39b066bef2)
+![image-20250620124618919](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620124618919.png)
 
 
 
@@ -23,9 +27,9 @@ This repository will provide a comprehensive and detailed introduction to the te
 
 ## 1 Chip First and Chip Last
 
-![image](https://github.com/RIOSMPW/3DPackageTech/assets/100336131/d9a52849-76bd-42fb-a337-674b63a3257b)
+![img](https://raw.githubusercontent.com/chenweiphd/typopic/master/Fig.-5.png)
 
-(Source: Georgia Institute of Technology)
+(Source: TechSearch International)
 
 
 While traditional packaging divides the silicon wafer into individual chips first and then attaches the chips to the PCB and establishes the electrical connections, wafer-level packaging creates the electrical connections and molds at the wafer level, and then divides the chips using a laser. The main difference between wafer-level chip-scale packaging (WLCSP) and flip chips in terms of chip configuration is that WLCSPs do not have a substrate between the die and the PCB. Instead, redistribution layers (RDLs) are used as a replacement for the substrate, resulting in a smaller package size and improved thermal conduction.
