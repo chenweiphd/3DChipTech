@@ -8,7 +8,7 @@
 
 In 3D or 3.5D packaging, multiple dies are stacked vertically, interconnected using through-silicon vias (TSVs) or microbumps. This vertical integration allows for shorter interconnect lengths, reduced power consumption, and improved thermal management. 2.5D and 3D packaging is commonly used in applications such as high-performance computing, graphics processing units (GPUs), and memory modules.
 
-![image-20250620124435013](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620124435013.png)
+![What is 3.5D Advanced Packaging?. Recently, a new term “3.5D” has… | by  Suny Li | Medium](https://miro.medium.com/v2/resize:fit:1400/0*EDTvuA6GDl-UpGqa)
 
 
 On the other hand, 2.5D packaging involves the integration of multiple dies on a silicon interposer. The interposer acts as a bridge, providing electrical connections between the dies. This technology allows for the combination of different types of dies, such as processors, memory, and sensors, in a single package. 2.5D packaging offers improved performance, power efficiency, and system miniaturization.
@@ -58,8 +58,9 @@ Chips are flipped and positioned so that the solder balls are facing the connect
 Solder balls are then remelted (typically using hot air reflow).
 
 Mounted chip is "underfilled" using a (capillary, shown here) electrically-insulating adhesive.
-![image](https://github.com/RIOSMPW/3DPackageTech/assets/100336131/a4dbe864-04aa-4574-9f51-a9f57ca0769e)
+![Flip Chip: The Ultimate Guide - AnySilicon](https://raw.githubusercontent.com/chenweiphd/typopic/master/flip-chip-vs-wirebond.png)
 
+(Source: anysilicon)
 
 ## 1.2 Fan-in and Fan-out
 
@@ -69,11 +70,9 @@ In fan-in wafer-level packaging, which is primarily utilized for low-end mobile 
 
 Fan-out packaging is available in three types: core, high density, and ultrahigh density. Core packaging is predominantly used for automotive and network applications that do not require high-end technology, such as radio frequency and infotainment chips. High and ultrahigh density packaging are mainly used for mobile applications and are expected to expand into some network and high-performance computing applications.
 
+![Fan-Out Wars Begin](https://raw.githubusercontent.com/chenweiphd/typopic/master/FOfig3.png)
 
-![image](https://github.com/RIOSMPW/3DPackageTech/assets/100336131/0afccb83-e6bc-44ce-99de-d36bf6e3402c)
-
-
-（Source：Micron）
+（Source：semiengineering）
 
 ## 1.3 Chip First
 
@@ -83,57 +82,51 @@ Chip first processing, in which the bare die was molded into a wafer shaped carr
 
 Chip last meets the needs of a large percentage of the applications requiring a packaging technology such as FOWLP. This new package has been in production in ASE for over a year, and uses a “Chip Last” approach to the problem of increasing useable interconnect pad area. Die which have been bumped with Copper(Cu) Pillars are mass reflowed onto a low cost coreless substrate, followed by over molding which also serves as the die underfill. The Cu pillars allow direct connection to die pads at 50 μm pitch or below, negating the requirement for RDL formation on the die.
 
-![image](https://github.com/RIOSMPW/3DPackageTech/assets/100336131/c1636345-9ca6-4ec4-847c-002bf15acf57)
-
 
 
 
 ## 2 Classification of Advanced Package Technology
 
 
-![image](https://github.com/RIOSMPW/3DPackageTech/assets/100336131/5d9484cc-98d5-4b92-bf11-fde79643971c)
+![Main types of WLSI plotted in the application space by integration area...  | Download Scientific Diagram](https://www.researchgate.net/publication/319195516/figure/fig4/AS:531207408816129@1503661123188/Main-types-of-WLSI-plotted-in-the-application-space-by-integration-area-and-IO-count.png)
 
 
 Main types of WLSI plotted in the application space by integration area and IO count(Source:TSMC)
 
 
-![eedcbf7be0c5c85386f46c2d4886ef8a_tsmc_chip_packaging_lossy](https://github.com/RIOSMPW/3DPackageTech/assets/100336131/2bc3f47c-6d59-454c-9e9e-88861dd064ea)
 
-(Source:TSMC)
+![image-20250620151836352](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620151836352.png)
 
-![image](https://github.com/RIOSMPW/3DChipTech/assets/100336131/d1aeef3f-c249-4476-b1b4-c6bb67e54149)
 
 
 Main package technology
 
 ## 3 Heterogeneous Integration
+![image-20250620153435931](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620153435931.png)
+
 （Modified from Synopsys）
 
 Heterogeneous integration (HI) is a general term used to represent the diverse possibilities for die technology incorporated into advanced 2.5D/3D packaging. 
 
-The nomenclature for advanced HI packaging is illustrated in the figure below.
+A complex HI package may incorporate:
 
-![image](https://github.com/RIOSMPW/3DChipTech/assets/109063674/5fb152fa-73b3-43e5-856a-99efb8247eb9)
+1) 3D (thinned die) high-bandwidth memory DRAM stacks
 
-A complex HI package could incorporate:
+2) 3D stacked die
 
-3D (thinned die) high-bandwidth memory DRAM stacks
+3) a 2.5D interposer, with redistribution layers (RDL) for signal interconnects between die and the package substrate
 
-3D stacked die
+And a hierarchy of attach technologies:
 
-a 2.5D interposer, with redistribution layers (RDL) for signal interconnects between die and the package substrate
+1) C4 bumps (~110-150um pitch)
 
-a hierarchy of attach technologies:
+2) microbumps for die-to-interposer attach (~40-55um pitch)
 
-C4 bumps (~110-150um pitch)
+3) hybrid bonded (bumpless) attach, for 3D stacked die, in either a face-to-face or face-to-back orientation
 
-microbumps for die-to-interposer attach (~40-55um pitch)
+4) through silicon vias (TSVs) in the interposer between the bumps and RDL layers
 
-hybrid bonded (bumpless) attach, for 3D stacked die, in either a face-to-face or face-to-back orientation
-
-through silicon vias (TSVs) in the interposer between the bumps and RDL layers
-
-micro-TSVs through the silicon in the 3D die stack (~10um pitch)
+5) micro-TSVs through the silicon in the 3D die stack (~10um pitch)
 
 There is also the potential to replace the silicon interposer with smaller silicon “bridges” between die edges in the 2.5D configuration, maintaining the high interconnect density while reducing cost (not shown in the figure above).  The tradeoff with the use of bridges embedded in an organic substrate versus an interposer is the redistribution interconnect density is reduced considerably.
 
@@ -141,7 +134,7 @@ A key requirement of any heterogeneous integration system is the available bus b
 
 An electrical design consideration is whether the interconnect characteristics between die (on the interposer or bridge) will support wide parallel bus signaling at lower clock rates to achieve the requisite throughput, or whether a more sophisticated (and more power-hungry) high-speed serial interface design is required.
 
-![image](https://github.com/RIOSMPW/3DChipTech/assets/109063674/63c0ac96-07bb-401d-8b2b-9673668b224d)
+![image-20250620124435013](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620124435013.png)
 
 Relative size comparison of 3D vias and NAND gates (14nm and 28nm). The diameter of monolithic inter-tier via (MIV) is 50nm, mini TSV is 2μm, and TSV is 5μm (Source: GLOBALFOUNDRIES)
 
