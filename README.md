@@ -98,7 +98,7 @@ Main package technology
 ## 3 Heterogeneous Integration
 ![image-20250620153435931](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620153435931.png)
 
-（Modified from Synopsys）
+(Source:Unimicron Technology Corporation)
 
 Heterogeneous integration (HI) is a general term used to represent the diverse possibilities for die technology incorporated into advanced 2.5D/3D packaging. 
 
