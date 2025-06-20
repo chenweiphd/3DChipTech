@@ -4,7 +4,7 @@
 
 2.5D, 3D and 3.5D Package or integration technology refers to advanced packaging techniques used in the semiconductor industry. These technologies enable the integration of multiple components or dies into a single package, resulting in increased functionality and performance.
 
-![image-20250620124229956](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620124229956.png)
+![image-20250620125321858](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620125321858.png)
 
 In 3D or 3.5D packaging, multiple dies are stacked vertically, interconnected using through-silicon vias (TSVs) or microbumps. This vertical integration allows for shorter interconnect lengths, reduced power consumption, and improved thermal management. 2.5D and 3D packaging is commonly used in applications such as high-performance computing, graphics processing units (GPUs), and memory modules.
 
