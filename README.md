@@ -88,12 +88,6 @@ Chip last meets the needs of a large percentage of the applications requiring a 
 ## 2 Classification of Advanced Package Technology
 
 
-![Main types of WLSI plotted in the application space by integration area...  | Download Scientific Diagram](https://www.researchgate.net/publication/319195516/figure/fig4/AS:531207408816129@1503661123188/Main-types-of-WLSI-plotted-in-the-application-space-by-integration-area-and-IO-count.png)
-
-
-Main types of WLSI plotted in the application space by integration area and IO count(Source:TSMC)
-
-
 
 ![image-20250620151836352](https://raw.githubusercontent.com/chenweiphd/typopic/master/image-20250620151836352.png)
 
